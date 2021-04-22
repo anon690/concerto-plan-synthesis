@@ -1,0 +1,50 @@
+$ python concerto_scheduling_examples/centraluser_update.py 10
+
+computing maximum schedule
+0/18 behaviors scheduled
+computing maximum schedule
+20/20 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 1.697 seconds
+SMT solving time: 0.782 seconds
+number of call to SMT solver: 6
+number of sat problems: 5
+number of unsat problems: 1
+avg solving time (sat): 0.153 seconds
+avg solving time (unsat): 0.019 seconds
+scheduled behaviors: 20
+synchronization steps before optimization: 4
+solution
+
+pushB(u, suspend)
+pushB(p8, update)
+pushB(p6, update)
+pushB(p1, update)
+pushB(p3, update)
+pushB(p5, update)
+pushB(p7, update)
+pushB(p0, update)
+pushB(p4, update)
+pushB(p2, update)
+pushB(p2, install)
+pushB(p4, install)
+pushB(p6, install)
+pushB(p8, install)
+pushB(p3, install)
+pushB(p1, install)
+pushB(p5, install)
+pushB(p7, install)
+pushB(p0, install)
+wait(p1)
+wait(p2)
+wait(p3)
+wait(p4)
+wait(p5)
+wait(p6)
+wait(p7)
+wait(p8)
+wait(p0)
+pushB(u, deploy)
+waitAll()
+

@@ -1,0 +1,36 @@
+$ python concerto_scheduling_examples/stratified_deployment.py 10
+
+computing maximum schedule
+0/1 behaviors scheduled
+computing maximum schedule
+0/3 behaviors scheduled
+computing maximum schedule
+0/6 behaviors scheduled
+computing maximum schedule
+0/9 behaviors scheduled
+computing maximum schedule
+10/10 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 0.643 seconds
+SMT solving time: 0.094 seconds
+number of call to SMT solver: 3
+number of sat problems: 3
+number of unsat problems: 0
+avg solving time (sat): 0.031 seconds
+scheduled behaviors: 10
+synchronization steps before optimization: 5
+solution
+
+pushB(p, install)
+pushB(u2, deploy)
+pushB(u1, deploy)
+pushB(u0, deploy)
+pushB(u4, deploy)
+pushB(u3, deploy)
+pushB(u5, deploy)
+pushB(u7, deploy)
+pushB(u6, deploy)
+pushB(u, deploy)
+waitAll()
+

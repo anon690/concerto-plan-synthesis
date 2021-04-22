@@ -1,0 +1,106 @@
+$ python concerto_scheduling_examples/linear_deployment.py 30
+
+computing maximum schedule
+0/1 behaviors scheduled
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/3 behaviors scheduled
+computing maximum schedule
+0/4 behaviors scheduled
+computing maximum schedule
+0/5 behaviors scheduled
+computing maximum schedule
+0/6 behaviors scheduled
+computing maximum schedule
+0/7 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/9 behaviors scheduled
+computing maximum schedule
+0/10 behaviors scheduled
+computing maximum schedule
+0/11 behaviors scheduled
+computing maximum schedule
+0/12 behaviors scheduled
+computing maximum schedule
+0/13 behaviors scheduled
+computing maximum schedule
+0/14 behaviors scheduled
+computing maximum schedule
+0/15 behaviors scheduled
+computing maximum schedule
+0/16 behaviors scheduled
+computing maximum schedule
+0/17 behaviors scheduled
+computing maximum schedule
+0/18 behaviors scheduled
+computing maximum schedule
+0/19 behaviors scheduled
+computing maximum schedule
+0/20 behaviors scheduled
+computing maximum schedule
+0/21 behaviors scheduled
+computing maximum schedule
+0/22 behaviors scheduled
+computing maximum schedule
+0/23 behaviors scheduled
+computing maximum schedule
+0/24 behaviors scheduled
+computing maximum schedule
+0/25 behaviors scheduled
+computing maximum schedule
+0/26 behaviors scheduled
+computing maximum schedule
+0/27 behaviors scheduled
+computing maximum schedule
+0/28 behaviors scheduled
+computing maximum schedule
+0/29 behaviors scheduled
+computing maximum schedule
+30/30 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 9.195 seconds
+SMT solving time: 4.274 seconds
+number of call to SMT solver: 5
+number of sat problems: 5
+number of unsat problems: 0
+avg solving time (sat): 0.855 seconds
+scheduled behaviors: 30
+synchronization steps before optimization: 30
+solution
+
+pushB(p, install)
+pushB(t0, install)
+pushB(t1, install)
+pushB(t2, install)
+pushB(t3, install)
+pushB(t4, install)
+pushB(t5, install)
+pushB(t6, install)
+pushB(t7, install)
+pushB(t8, install)
+pushB(t9, install)
+pushB(t10, install)
+pushB(t11, install)
+pushB(t12, install)
+pushB(t13, install)
+pushB(t14, install)
+pushB(t15, install)
+pushB(t16, install)
+pushB(t17, install)
+pushB(t18, install)
+pushB(t19, install)
+pushB(t20, install)
+pushB(t21, install)
+pushB(t22, install)
+pushB(t23, install)
+pushB(t24, install)
+pushB(t25, install)
+pushB(t26, install)
+pushB(t27, install)
+pushB(t28, install)
+waitAll()
+

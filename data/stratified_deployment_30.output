@@ -1,0 +1,70 @@
+$ python concerto_scheduling_examples/stratified_deployment.py 30
+
+computing maximum schedule
+0/1 behaviors scheduled
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/5 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/11 behaviors scheduled
+computing maximum schedule
+0/14 behaviors scheduled
+computing maximum schedule
+0/17 behaviors scheduled
+computing maximum schedule
+0/20 behaviors scheduled
+computing maximum schedule
+0/23 behaviors scheduled
+computing maximum schedule
+0/26 behaviors scheduled
+computing maximum schedule
+0/29 behaviors scheduled
+computing maximum schedule
+30/30 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 12.041 seconds
+SMT solving time: 5.283 seconds
+number of call to SMT solver: 6
+number of sat problems: 6
+number of unsat problems: 0
+avg solving time (sat): 0.881 seconds
+scheduled behaviors: 30
+synchronization steps before optimization: 12
+solution
+
+pushB(p, install)
+pushB(u0, deploy)
+pushB(u2, deploy)
+pushB(u1, deploy)
+pushB(u5, deploy)
+pushB(u4, deploy)
+pushB(u3, deploy)
+pushB(u8, deploy)
+pushB(u7, deploy)
+pushB(u6, deploy)
+pushB(u11, deploy)
+pushB(u10, deploy)
+pushB(u9, deploy)
+pushB(u14, deploy)
+pushB(u13, deploy)
+pushB(u12, deploy)
+pushB(u16, deploy)
+pushB(u15, deploy)
+pushB(u17, deploy)
+pushB(u18, deploy)
+pushB(u20, deploy)
+pushB(u19, deploy)
+pushB(u23, deploy)
+pushB(u22, deploy)
+pushB(u21, deploy)
+pushB(u25, deploy)
+pushB(u24, deploy)
+pushB(u26, deploy)
+pushB(u27, deploy)
+pushB(u, deploy)
+waitAll()
+

@@ -1,0 +1,156 @@
+$ python concerto_scheduling_examples/stratified_update.py 30
+
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/17 behaviors scheduled
+computing maximum schedule
+0/26 behaviors scheduled
+computing maximum schedule
+0/35 behaviors scheduled
+computing maximum schedule
+0/44 behaviors scheduled
+computing maximum schedule
+0/53 behaviors scheduled
+computing maximum schedule
+0/62 behaviors scheduled
+computing maximum schedule
+0/71 behaviors scheduled
+computing maximum schedule
+0/80 behaviors scheduled
+computing maximum schedule
+0/83 behaviors scheduled
+computing maximum schedule
+86/86 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 2306.856 seconds
+SMT solving time: 1885.172 seconds
+number of call to SMT solver: 147
+number of sat problems: 16
+number of unsat problems: 131
+avg solving time (sat): 72.611 seconds
+avg solving time (unsat): 5.522 seconds
+scheduled behaviors: 86
+synchronization steps before optimization: 34
+solution
+
+pushB(u, suspend)
+pushB(u, stop)
+pushB(u27, suspend)
+pushB(u27, stop)
+wait(u27)
+pushB(u24, suspend)
+pushB(u26, suspend)
+pushB(u25, suspend)
+pushB(u26, stop)
+pushB(u24, stop)
+pushB(u25, stop)
+wait(u24)
+wait(u26)
+wait(u25)
+pushB(u22, suspend)
+pushB(u23, suspend)
+pushB(u21, suspend)
+pushB(u21, stop)
+pushB(u22, stop)
+pushB(u23, stop)
+wait(u21)
+wait(u22)
+wait(u23)
+pushB(u18, suspend)
+pushB(u19, suspend)
+pushB(u20, suspend)
+pushB(u20, stop)
+pushB(u18, stop)
+pushB(u19, stop)
+wait(u19)
+wait(u20)
+wait(u18)
+pushB(u16, suspend)
+pushB(u17, suspend)
+pushB(u15, suspend)
+pushB(u17, stop)
+pushB(u15, stop)
+pushB(u16, stop)
+wait(u17)
+wait(u15)
+wait(u16)
+pushB(u12, suspend)
+pushB(u13, suspend)
+pushB(u14, suspend)
+pushB(u14, stop)
+pushB(u13, stop)
+pushB(u12, stop)
+wait(u13)
+wait(u12)
+wait(u14)
+pushB(u11, suspend)
+pushB(u9, suspend)
+pushB(u10, suspend)
+pushB(u9, stop)
+pushB(u10, stop)
+pushB(u11, stop)
+wait(u11)
+wait(u9)
+wait(u10)
+pushB(u8, suspend)
+pushB(u6, suspend)
+pushB(u7, suspend)
+pushB(u8, stop)
+pushB(u6, stop)
+pushB(u7, stop)
+wait(u7)
+wait(u8)
+wait(u6)
+pushB(u4, suspend)
+pushB(u5, suspend)
+pushB(u3, suspend)
+pushB(u4, stop)
+pushB(u5, stop)
+pushB(u3, stop)
+wait(u5)
+wait(u3)
+wait(u4)
+pushB(u2, suspend)
+pushB(u0, suspend)
+pushB(u1, suspend)
+pushB(p, update)
+pushB(p, install)
+wait(p)
+pushB(u2, deploy)
+pushB(u1, deploy)
+pushB(u0, deploy)
+wait(u2)
+wait(u0)
+wait(u1)
+pushB(u4, deploy)
+pushB(u5, deploy)
+pushB(u3, deploy)
+pushB(u7, deploy)
+pushB(u8, deploy)
+pushB(u6, deploy)
+pushB(u11, deploy)
+pushB(u10, deploy)
+pushB(u9, deploy)
+pushB(u14, deploy)
+pushB(u13, deploy)
+pushB(u12, deploy)
+pushB(u17, deploy)
+pushB(u15, deploy)
+pushB(u16, deploy)
+pushB(u19, deploy)
+pushB(u18, deploy)
+pushB(u20, deploy)
+pushB(u21, deploy)
+pushB(u22, deploy)
+pushB(u23, deploy)
+pushB(u24, deploy)
+pushB(u26, deploy)
+pushB(u25, deploy)
+pushB(u27, deploy)
+pushB(u, deploy)
+waitAll()
+

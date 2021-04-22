@@ -1,0 +1,77 @@
+$ python concerto_scheduling_examples/centralprovider_interruption.py 30
+
+computing maximum schedule
+59/59 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 12.365 seconds
+SMT solving time: 7.253 seconds
+number of call to SMT solver: 10
+number of sat problems: 10
+number of unsat problems: 0
+avg solving time (sat): 0.725 seconds
+scheduled behaviors: 59
+synchronization steps before optimization: 3
+solution
+
+pushB(u13, suspend)
+pushB(u7, suspend)
+pushB(u19, suspend)
+pushB(u27, suspend)
+pushB(u2, suspend)
+pushB(u16, suspend)
+pushB(u10, suspend)
+pushB(u22, suspend)
+pushB(u14, suspend)
+pushB(u5, suspend)
+pushB(u18, suspend)
+pushB(u25, suspend)
+pushB(u0, suspend)
+pushB(u8, suspend)
+pushB(u20, suspend)
+pushB(u28, suspend)
+pushB(u3, suspend)
+pushB(u15, suspend)
+pushB(u11, suspend)
+pushB(u23, suspend)
+pushB(u6, suspend)
+pushB(u12, suspend)
+pushB(u26, suspend)
+pushB(u1, suspend)
+pushB(u17, suspend)
+pushB(u9, suspend)
+pushB(u21, suspend)
+pushB(u4, suspend)
+pushB(u24, suspend)
+pushB(u24, stop)
+pushB(u13, stop)
+pushB(u7, stop)
+pushB(u19, stop)
+pushB(u27, stop)
+pushB(u2, stop)
+pushB(u10, stop)
+pushB(u22, stop)
+pushB(u14, stop)
+pushB(u5, stop)
+pushB(u25, stop)
+pushB(u0, stop)
+pushB(u8, stop)
+pushB(u16, stop)
+pushB(u20, stop)
+pushB(u28, stop)
+pushB(u15, stop)
+pushB(u11, stop)
+pushB(u3, stop)
+pushB(u17, stop)
+pushB(u23, stop)
+pushB(u6, stop)
+pushB(u18, stop)
+pushB(u26, stop)
+pushB(u12, stop)
+pushB(u1, stop)
+pushB(u9, stop)
+pushB(u21, stop)
+pushB(u4, stop)
+pushB(p, stop)
+waitAll()
+

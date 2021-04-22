@@ -1,0 +1,38 @@
+$ python concerto_scheduling_examples/centraluser_interruption.py 10
+
+computing maximum schedule
+11/11 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 0.545 seconds
+SMT solving time: 0.147 seconds
+number of call to SMT solver: 3
+number of sat problems: 3
+number of unsat problems: 0
+avg solving time (sat): 0.049 seconds
+scheduled behaviors: 11
+synchronization steps before optimization: 3
+solution
+
+pushB(u, suspend)
+pushB(u, stop)
+wait(u)
+pushB(p0, stop)
+pushB(p8, stop)
+pushB(p3, stop)
+pushB(p6, stop)
+pushB(p1, stop)
+pushB(p4, stop)
+pushB(p7, stop)
+pushB(p2, stop)
+pushB(p5, stop)
+wait(p7)
+wait(p2)
+wait(p8)
+wait(p3)
+wait(p0)
+wait(p4)
+wait(p5)
+wait(p6)
+wait(p1)
+

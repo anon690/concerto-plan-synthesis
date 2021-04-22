@@ -1,0 +1,35 @@
+$ python concerto_scheduling_examples/openstack.py
+
+computing maximum schedule
+0/3 behaviors scheduled
+computing maximum schedule
+12/12 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 1.957 seconds
+SMT solving time: 0.402 seconds
+number of call to SMT solver: 17
+number of sat problems: 3
+number of unsat problems: 14
+avg solving time (sat): 0.081 seconds
+avg solving time (unsat): 0.011 seconds
+scheduled behaviors: 12
+synchronization steps before optimization: 8
+solution
+
+pushB(neutron, uninstall)
+pushB(nova, interrupt)
+pushB(glance, uninstall)
+pushB(nova, uninstall)
+pushB(keystone, uninstall)
+pushB(mariadb, interrupt)
+pushB(mariadb, update)
+pushB(mariadb, deploy)
+wait(mariadb)
+pushB(keystone, deploy)
+wait(keystone)
+pushB(nova, deploy)
+pushB(glance, deploy)
+pushB(neutron, deploy)
+waitAll()
+

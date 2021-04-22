@@ -1,0 +1,58 @@
+$ python concerto_scheduling_examples/stratified_update.py 10
+
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/17 behaviors scheduled
+computing maximum schedule
+0/23 behaviors scheduled
+computing maximum schedule
+26/26 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 14.556 seconds
+SMT solving time: 5.826 seconds
+number of call to SMT solver: 20
+number of sat problems: 6
+number of unsat problems: 14
+avg solving time (sat): 0.713 seconds
+avg solving time (unsat): 0.111 seconds
+scheduled behaviors: 26
+synchronization steps before optimization: 13
+solution
+
+pushB(u, suspend)
+pushB(u, stop)
+waitAll()
+pushB(u6, suspend)
+pushB(u7, suspend)
+pushB(u7, stop)
+pushB(u6, stop)
+waitAll()
+pushB(u4, suspend)
+pushB(u5, suspend)
+pushB(u3, suspend)
+pushB(u4, stop)
+pushB(u5, stop)
+pushB(u3, stop)
+waitAll()
+pushB(u0, suspend)
+pushB(u2, suspend)
+pushB(u1, suspend)
+pushB(p, update)
+pushB(p, install)
+wait(p)
+pushB(u1, deploy)
+pushB(u0, deploy)
+pushB(u2, deploy)
+waitAll()
+pushB(u5, deploy)
+pushB(u3, deploy)
+pushB(u4, deploy)
+pushB(u6, deploy)
+pushB(u7, deploy)
+pushB(u, deploy)
+waitAll()
+

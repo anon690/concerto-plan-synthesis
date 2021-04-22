@@ -1,0 +1,46 @@
+$ python concerto_scheduling_examples/linear_deployment.py 10
+
+computing maximum schedule
+0/1 behaviors scheduled
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/3 behaviors scheduled
+computing maximum schedule
+0/4 behaviors scheduled
+computing maximum schedule
+0/5 behaviors scheduled
+computing maximum schedule
+0/6 behaviors scheduled
+computing maximum schedule
+0/7 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/9 behaviors scheduled
+computing maximum schedule
+10/10 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 0.405 seconds
+SMT solving time: 0.081 seconds
+number of call to SMT solver: 2
+number of sat problems: 2
+number of unsat problems: 0
+avg solving time (sat): 0.040 seconds
+scheduled behaviors: 10
+synchronization steps before optimization: 10
+solution
+
+pushB(p, install)
+pushB(t0, install)
+pushB(t1, install)
+pushB(t2, install)
+pushB(t3, install)
+pushB(t4, install)
+pushB(t5, install)
+pushB(t6, install)
+pushB(t7, install)
+pushB(t8, install)
+waitAll()
+

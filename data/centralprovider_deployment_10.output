@@ -1,0 +1,30 @@
+$ python concerto_scheduling_examples/centralprovider_deployment.py 10
+
+computing maximum schedule
+0/9 behaviors scheduled
+computing maximum schedule
+10/10 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 0.336 seconds
+SMT solving time: 0.084 seconds
+number of call to SMT solver: 2
+number of sat problems: 2
+number of unsat problems: 0
+avg solving time (sat): 0.042 seconds
+scheduled behaviors: 10
+synchronization steps before optimization: 2
+solution
+
+pushB(p, install)
+pushB(u1, deploy)
+pushB(u8, deploy)
+pushB(u5, deploy)
+pushB(u2, deploy)
+pushB(u6, deploy)
+pushB(u3, deploy)
+pushB(u7, deploy)
+pushB(u0, deploy)
+pushB(u4, deploy)
+waitAll()
+

@@ -1,0 +1,166 @@
+$ python concerto_scheduling_examples/linear_update.py 30
+
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/4 behaviors scheduled
+computing maximum schedule
+0/6 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/10 behaviors scheduled
+computing maximum schedule
+0/12 behaviors scheduled
+computing maximum schedule
+0/14 behaviors scheduled
+computing maximum schedule
+0/16 behaviors scheduled
+computing maximum schedule
+0/18 behaviors scheduled
+computing maximum schedule
+0/20 behaviors scheduled
+computing maximum schedule
+0/22 behaviors scheduled
+computing maximum schedule
+0/24 behaviors scheduled
+computing maximum schedule
+0/26 behaviors scheduled
+computing maximum schedule
+0/28 behaviors scheduled
+computing maximum schedule
+0/30 behaviors scheduled
+computing maximum schedule
+0/32 behaviors scheduled
+computing maximum schedule
+0/34 behaviors scheduled
+computing maximum schedule
+0/36 behaviors scheduled
+computing maximum schedule
+0/38 behaviors scheduled
+computing maximum schedule
+0/40 behaviors scheduled
+computing maximum schedule
+0/42 behaviors scheduled
+computing maximum schedule
+0/44 behaviors scheduled
+computing maximum schedule
+0/46 behaviors scheduled
+computing maximum schedule
+0/48 behaviors scheduled
+computing maximum schedule
+0/50 behaviors scheduled
+computing maximum schedule
+0/52 behaviors scheduled
+computing maximum schedule
+0/54 behaviors scheduled
+computing maximum schedule
+0/56 behaviors scheduled
+computing maximum schedule
+0/58 behaviors scheduled
+computing maximum schedule
+60/60 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 1388.508 seconds
+SMT solving time: 825.065 seconds
+number of call to SMT solver: 446
+number of sat problems: 11
+number of unsat problems: 435
+avg solving time (sat): 56.022 seconds
+avg solving time (unsat): 0.480 seconds
+scheduled behaviors: 60
+synchronization steps before optimization: 60
+solution
+
+pushB(t28, update)
+pushB(t27, update)
+pushB(t26, update)
+pushB(t25, update)
+pushB(t24, update)
+pushB(t23, update)
+pushB(t22, update)
+pushB(t21, update)
+pushB(t20, update)
+pushB(t19, update)
+pushB(t18, update)
+pushB(t17, update)
+pushB(t16, update)
+pushB(t15, update)
+pushB(t14, update)
+pushB(t13, update)
+pushB(t12, update)
+pushB(t11, update)
+pushB(t10, update)
+pushB(t9, update)
+pushB(t8, update)
+pushB(t7, update)
+pushB(t6, update)
+pushB(t5, update)
+pushB(t4, update)
+pushB(t3, update)
+pushB(t2, update)
+pushB(t1, update)
+pushB(t0, update)
+pushB(p, update)
+pushB(p, install)
+wait(p)
+pushB(t0, install)
+wait(t0)
+pushB(t1, install)
+wait(t1)
+pushB(t2, install)
+wait(t2)
+pushB(t3, install)
+wait(t3)
+pushB(t4, install)
+wait(t4)
+pushB(t5, install)
+wait(t5)
+pushB(t6, install)
+wait(t6)
+pushB(t7, install)
+wait(t7)
+pushB(t8, install)
+wait(t8)
+pushB(t9, install)
+wait(t9)
+pushB(t10, install)
+wait(t10)
+pushB(t11, install)
+wait(t11)
+pushB(t12, install)
+wait(t12)
+pushB(t13, install)
+wait(t13)
+pushB(t14, install)
+wait(t14)
+pushB(t15, install)
+wait(t15)
+pushB(t16, install)
+wait(t16)
+pushB(t17, install)
+wait(t17)
+pushB(t18, install)
+wait(t18)
+pushB(t19, install)
+wait(t19)
+pushB(t20, install)
+wait(t20)
+pushB(t21, install)
+wait(t21)
+pushB(t22, install)
+wait(t22)
+pushB(t23, install)
+wait(t23)
+pushB(t24, install)
+wait(t24)
+pushB(t25, install)
+wait(t25)
+pushB(t26, install)
+wait(t26)
+pushB(t27, install)
+wait(t27)
+pushB(t28, install)
+waitAll()
+

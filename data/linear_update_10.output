@@ -1,0 +1,66 @@
+$ python concerto_scheduling_examples/linear_update.py 10
+
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/4 behaviors scheduled
+computing maximum schedule
+0/6 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/10 behaviors scheduled
+computing maximum schedule
+0/12 behaviors scheduled
+computing maximum schedule
+0/14 behaviors scheduled
+computing maximum schedule
+0/16 behaviors scheduled
+computing maximum schedule
+0/18 behaviors scheduled
+computing maximum schedule
+20/20 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 12.721 seconds
+SMT solving time: 3.268 seconds
+number of call to SMT solver: 50
+number of sat problems: 5
+number of unsat problems: 45
+avg solving time (sat): 0.432 seconds
+avg solving time (unsat): 0.025 seconds
+scheduled behaviors: 20
+synchronization steps before optimization: 20
+solution
+
+pushB(t8, update)
+pushB(t7, update)
+pushB(t6, update)
+pushB(t5, update)
+pushB(t4, update)
+pushB(t3, update)
+pushB(t2, update)
+pushB(t1, update)
+pushB(t0, update)
+pushB(p, update)
+pushB(p, install)
+wait(p)
+pushB(t0, install)
+wait(t0)
+pushB(t1, install)
+wait(t1)
+pushB(t2, install)
+wait(t2)
+pushB(t3, install)
+wait(t3)
+pushB(t4, install)
+wait(t4)
+pushB(t5, install)
+wait(t5)
+pushB(t6, install)
+wait(t6)
+pushB(t7, install)
+wait(t7)
+pushB(t8, install)
+waitAll()
+

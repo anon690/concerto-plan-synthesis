@@ -1,0 +1,2 @@
+$ python concerto_scheduling_examples/stratified_interruption.py 100
+

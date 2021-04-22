@@ -1,0 +1,38 @@
+architecture,reconfiguration,size,total time (seconds),cumulated SMT solving time (seconds),number of satisfiable SMT problems,number of unsatisfiable SMT problems,average solving time (satisfiable problems),average solving time (unsatisfiable problems),scheduled behaviors,synchornization steps before optimization
+central provider,deployment,10,0.336,0.084,2,0,0.042,0,10,2
+central provider,deployment,30,3.956,1.803,5,0,0.361,0,30,2
+central provider,deployment,100,23.945,3.598,17,0,0.212,0,100,2
+central provider,interruption,10,0.918,0.306,4,0,0.076,0,19,3
+central provider,interruption,30,12.365,7.253,10,0,0.725,0,59,3
+central provider,interruption,100,571.732,514.485,34,0,15.132,0,199,3
+central provider,update,10,1.797,0.413,4,9,0.09,0.006,20,4
+central provider,update,30,22.986,9.973,11,29,0.856,0.019,60,4
+central provider,update,100,685.548,541.692,34,99,15.649,0.097,200,4
+central user,deployment,10,0.253,0.02,2,0,0.01,0,10,2
+central user,deployment,30,1.99,0.189,5,0,0.038,0,30,2
+central user,deployment,100,23.945,3.598,17,0,0.212,0,100,2
+central user,interruption,10,0.545,0.147,3,0,0.049,0,11,3
+central user,interruption,30,6.013,2.768,6,0,0.461,0,31,3
+central user,interruption,100,162.514,125.513,18,0,6.973,0,101,3
+central user,update,10,1.697,0.782,5,1,0.153,0.019,20,4
+central user,update,30,25.07,18.599,11,1,1.677,0.153,60,4
+central user,update,100,1737.294,1654.67,35,1,47.252,0.861,200,4
+linear,deployment,10,0.405,0.081,2,0,0.04,0,10,10
+linear,deployment,30,9.195,4.274,5,0,0.855,0,30,30
+linear,deployment,100,2689.868,2512.229,17,0,147.778,0,100,100
+linear,interruption,10,1.302,0.192,10,0,0.019,0,10,10
+linear,interruption,30,39.316,13.698,30,0,0.457,0,30,30
+linear,interruption,100,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+linear,update,10,12.721,3.268,5,45,0.432,0.025,20,20
+linear,update,30,1388.508,825.065,11,435,56.022,0.48,60,60
+linear,update,100,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+stratified,deployment,10,0.643,0.094,3,0,0.031,0,10,5
+stratified,deployment,30,12.041,5.283,6,0,0.881,0,30,12
+stratified,deployment,100,1274.527,1121.403,18,0,62.3,0,100,35
+stratified,interruption,10,2.504,1.101,4,0,0.275,0,19,9
+stratified,interruption,30,132.597,108.533,11,0,9.867,0,59,23
+stratified,interruption,100,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+stratified,update,10,14.556,5.826,6,14,0.713,0.111,26,13
+stratified,update,30,2306.856,1885.172,16,131,72.611,5.522,86,34
+stratified,update,100,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+openstack,update,11,1.957,0.402,3,14,0.081,0.011,12,8

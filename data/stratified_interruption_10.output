@@ -1,0 +1,40 @@
+$ python concerto_scheduling_examples/stratified_interruption.py 10
+
+computing maximum schedule
+19/19 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 2.504 seconds
+SMT solving time: 1.101 seconds
+number of call to SMT solver: 4
+number of sat problems: 4
+number of unsat problems: 0
+avg solving time (sat): 0.275 seconds
+scheduled behaviors: 19
+synchronization steps before optimization: 9
+solution
+
+pushB(u, suspend)
+pushB(u, stop)
+waitAll()
+pushB(u7, suspend)
+pushB(u6, suspend)
+pushB(u7, stop)
+pushB(u6, stop)
+waitAll()
+pushB(u4, suspend)
+pushB(u5, suspend)
+pushB(u3, suspend)
+pushB(u3, stop)
+pushB(u4, stop)
+pushB(u5, stop)
+waitAll()
+pushB(u2, suspend)
+pushB(u1, suspend)
+pushB(u0, suspend)
+pushB(u2, stop)
+pushB(u1, stop)
+pushB(u0, stop)
+pushB(p, stop)
+waitAll()
+

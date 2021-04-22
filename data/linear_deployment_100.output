@@ -1,0 +1,316 @@
+$ python concerto_scheduling_examples/linear_deployment.py 100
+
+computing maximum schedule
+0/1 behaviors scheduled
+computing maximum schedule
+0/2 behaviors scheduled
+computing maximum schedule
+0/3 behaviors scheduled
+computing maximum schedule
+0/4 behaviors scheduled
+computing maximum schedule
+0/5 behaviors scheduled
+computing maximum schedule
+0/6 behaviors scheduled
+computing maximum schedule
+0/7 behaviors scheduled
+computing maximum schedule
+0/8 behaviors scheduled
+computing maximum schedule
+0/9 behaviors scheduled
+computing maximum schedule
+0/10 behaviors scheduled
+computing maximum schedule
+0/11 behaviors scheduled
+computing maximum schedule
+0/12 behaviors scheduled
+computing maximum schedule
+0/13 behaviors scheduled
+computing maximum schedule
+0/14 behaviors scheduled
+computing maximum schedule
+0/15 behaviors scheduled
+computing maximum schedule
+0/16 behaviors scheduled
+computing maximum schedule
+0/17 behaviors scheduled
+computing maximum schedule
+0/18 behaviors scheduled
+computing maximum schedule
+0/19 behaviors scheduled
+computing maximum schedule
+0/20 behaviors scheduled
+computing maximum schedule
+0/21 behaviors scheduled
+computing maximum schedule
+0/22 behaviors scheduled
+computing maximum schedule
+0/23 behaviors scheduled
+computing maximum schedule
+0/24 behaviors scheduled
+computing maximum schedule
+0/25 behaviors scheduled
+computing maximum schedule
+0/26 behaviors scheduled
+computing maximum schedule
+0/27 behaviors scheduled
+computing maximum schedule
+0/28 behaviors scheduled
+computing maximum schedule
+0/29 behaviors scheduled
+computing maximum schedule
+0/30 behaviors scheduled
+computing maximum schedule
+0/31 behaviors scheduled
+computing maximum schedule
+0/32 behaviors scheduled
+computing maximum schedule
+0/33 behaviors scheduled
+computing maximum schedule
+0/34 behaviors scheduled
+computing maximum schedule
+0/35 behaviors scheduled
+computing maximum schedule
+0/36 behaviors scheduled
+computing maximum schedule
+0/37 behaviors scheduled
+computing maximum schedule
+0/38 behaviors scheduled
+computing maximum schedule
+0/39 behaviors scheduled
+computing maximum schedule
+0/40 behaviors scheduled
+computing maximum schedule
+0/41 behaviors scheduled
+computing maximum schedule
+0/42 behaviors scheduled
+computing maximum schedule
+0/43 behaviors scheduled
+computing maximum schedule
+0/44 behaviors scheduled
+computing maximum schedule
+0/45 behaviors scheduled
+computing maximum schedule
+0/46 behaviors scheduled
+computing maximum schedule
+0/47 behaviors scheduled
+computing maximum schedule
+0/48 behaviors scheduled
+computing maximum schedule
+0/49 behaviors scheduled
+computing maximum schedule
+0/50 behaviors scheduled
+computing maximum schedule
+0/51 behaviors scheduled
+computing maximum schedule
+0/52 behaviors scheduled
+computing maximum schedule
+0/53 behaviors scheduled
+computing maximum schedule
+0/54 behaviors scheduled
+computing maximum schedule
+0/55 behaviors scheduled
+computing maximum schedule
+0/56 behaviors scheduled
+computing maximum schedule
+0/57 behaviors scheduled
+computing maximum schedule
+0/58 behaviors scheduled
+computing maximum schedule
+0/59 behaviors scheduled
+computing maximum schedule
+0/60 behaviors scheduled
+computing maximum schedule
+0/61 behaviors scheduled
+computing maximum schedule
+0/62 behaviors scheduled
+computing maximum schedule
+0/63 behaviors scheduled
+computing maximum schedule
+0/64 behaviors scheduled
+computing maximum schedule
+0/65 behaviors scheduled
+computing maximum schedule
+0/66 behaviors scheduled
+computing maximum schedule
+0/67 behaviors scheduled
+computing maximum schedule
+0/68 behaviors scheduled
+computing maximum schedule
+0/69 behaviors scheduled
+computing maximum schedule
+0/70 behaviors scheduled
+computing maximum schedule
+0/71 behaviors scheduled
+computing maximum schedule
+0/72 behaviors scheduled
+computing maximum schedule
+0/73 behaviors scheduled
+computing maximum schedule
+0/74 behaviors scheduled
+computing maximum schedule
+0/75 behaviors scheduled
+computing maximum schedule
+0/76 behaviors scheduled
+computing maximum schedule
+0/77 behaviors scheduled
+computing maximum schedule
+0/78 behaviors scheduled
+computing maximum schedule
+0/79 behaviors scheduled
+computing maximum schedule
+0/80 behaviors scheduled
+computing maximum schedule
+0/81 behaviors scheduled
+computing maximum schedule
+0/82 behaviors scheduled
+computing maximum schedule
+0/83 behaviors scheduled
+computing maximum schedule
+0/84 behaviors scheduled
+computing maximum schedule
+0/85 behaviors scheduled
+computing maximum schedule
+0/86 behaviors scheduled
+computing maximum schedule
+0/87 behaviors scheduled
+computing maximum schedule
+0/88 behaviors scheduled
+computing maximum schedule
+0/89 behaviors scheduled
+computing maximum schedule
+0/90 behaviors scheduled
+computing maximum schedule
+0/91 behaviors scheduled
+computing maximum schedule
+0/92 behaviors scheduled
+computing maximum schedule
+0/93 behaviors scheduled
+computing maximum schedule
+0/94 behaviors scheduled
+computing maximum schedule
+0/95 behaviors scheduled
+computing maximum schedule
+0/96 behaviors scheduled
+computing maximum schedule
+0/97 behaviors scheduled
+computing maximum schedule
+0/98 behaviors scheduled
+computing maximum schedule
+0/99 behaviors scheduled
+computing maximum schedule
+100/100 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 2689.868 seconds
+SMT solving time: 2512.229 seconds
+number of call to SMT solver: 17
+number of sat problems: 17
+number of unsat problems: 0
+avg solving time (sat): 147.778 seconds
+scheduled behaviors: 100
+synchronization steps before optimization: 100
+solution
+
+pushB(p, install)
+pushB(t0, install)
+pushB(t1, install)
+pushB(t2, install)
+pushB(t3, install)
+pushB(t4, install)
+pushB(t5, install)
+pushB(t6, install)
+pushB(t7, install)
+pushB(t8, install)
+pushB(t9, install)
+pushB(t10, install)
+pushB(t11, install)
+pushB(t12, install)
+pushB(t13, install)
+pushB(t14, install)
+pushB(t15, install)
+pushB(t16, install)
+pushB(t17, install)
+pushB(t18, install)
+pushB(t19, install)
+pushB(t20, install)
+pushB(t21, install)
+pushB(t22, install)
+pushB(t23, install)
+pushB(t24, install)
+pushB(t25, install)
+pushB(t26, install)
+pushB(t27, install)
+pushB(t28, install)
+pushB(t29, install)
+pushB(t30, install)
+pushB(t31, install)
+pushB(t32, install)
+pushB(t33, install)
+pushB(t34, install)
+pushB(t35, install)
+pushB(t36, install)
+pushB(t37, install)
+pushB(t38, install)
+pushB(t39, install)
+pushB(t40, install)
+pushB(t41, install)
+pushB(t42, install)
+pushB(t43, install)
+pushB(t44, install)
+pushB(t45, install)
+pushB(t46, install)
+pushB(t47, install)
+pushB(t48, install)
+pushB(t49, install)
+pushB(t50, install)
+pushB(t51, install)
+pushB(t52, install)
+pushB(t53, install)
+pushB(t54, install)
+pushB(t55, install)
+pushB(t56, install)
+pushB(t57, install)
+pushB(t58, install)
+pushB(t59, install)
+pushB(t60, install)
+pushB(t61, install)
+pushB(t62, install)
+pushB(t63, install)
+pushB(t64, install)
+pushB(t65, install)
+pushB(t66, install)
+pushB(t67, install)
+pushB(t68, install)
+pushB(t69, install)
+pushB(t70, install)
+pushB(t71, install)
+pushB(t72, install)
+pushB(t73, install)
+pushB(t74, install)
+pushB(t75, install)
+pushB(t76, install)
+pushB(t77, install)
+pushB(t78, install)
+pushB(t79, install)
+pushB(t80, install)
+pushB(t81, install)
+pushB(t82, install)
+pushB(t83, install)
+pushB(t84, install)
+pushB(t85, install)
+pushB(t86, install)
+pushB(t87, install)
+pushB(t88, install)
+pushB(t89, install)
+pushB(t90, install)
+pushB(t91, install)
+pushB(t92, install)
+pushB(t93, install)
+pushB(t94, install)
+pushB(t95, install)
+pushB(t96, install)
+pushB(t97, install)
+pushB(t98, install)
+waitAll()
+

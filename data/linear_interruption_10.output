@@ -1,0 +1,28 @@
+$ python concerto_scheduling_examples/linear_interruption.py 10
+
+computing maximum schedule
+10/10 behaviors scheduled
+optimzing schedule
+synthesis completed
+total time: 1.302 seconds
+SMT solving time: 0.192 seconds
+number of call to SMT solver: 10
+number of sat problems: 10
+number of unsat problems: 0
+avg solving time (sat): 0.019 seconds
+scheduled behaviors: 10
+synchronization steps before optimization: 10
+solution
+
+pushB(t8, stop)
+pushB(t7, stop)
+pushB(t6, stop)
+pushB(t5, stop)
+pushB(t4, stop)
+pushB(t3, stop)
+pushB(t2, stop)
+pushB(t1, stop)
+pushB(t0, stop)
+pushB(p, stop)
+waitAll()
+
