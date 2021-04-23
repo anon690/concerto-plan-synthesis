@@ -31,3 +31,4 @@ components in the assembly, e.g.:
   * `fo_logic.py` includes classes to describre first-order expressions used in the SMT encoding of the scheduling problems
 * `concerto_scheduling_examples` contains the benchmarks described in the paper
 * `data` contains the experimental data obtained by running those benchmarks
+* `smt_examples` contains instances of SMT scheduling problems, for illustrating purposes

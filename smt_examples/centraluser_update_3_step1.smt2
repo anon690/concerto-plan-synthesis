@@ -2,10 +2,13 @@
 ; central-user architecture with 3 components
 ; attempting to schedule [update, install] on the components p0 and p1, and no behavior on component u
 ; this problem is unsatisfiable because the use ports of u block the updates
+
 (set-info :status unsat)
 (set-logic ALL)
+
 (declare-datatypes ((behavior 0)) (((p0_update_0) (p0_install_1) (p1_update_0) (p1_install_1))))
 (declare-datatypes ((step 0)) (((step0) (step1) (final_state))))
+
 (declare-fun schedule (behavior) step)
 (declare-fun succ (step) step)
 (declare-fun toint (step) Int)
@@ -19,6 +22,7 @@
 (declare-fun active_p0_service (step) Bool)
 (declare-fun active_p1_config (step) Bool)
 (declare-fun active_p1_service (step) Bool)
+
 (assert (distinct (schedule p0_update_0) final_state))
 (assert (distinct (schedule p0_install_1) final_state))
 (assert (distinct (schedule p1_update_0) final_state))
@@ -71,4 +75,5 @@
 (assert (=> (and (distinct step1 (schedule p0_update_0)) (distinct step1 (schedule p0_install_1))) (= (active_p0_service step1) (active_p0_service (succ step1)))))
 (assert (=> (and (distinct step1 (schedule p1_update_0)) (distinct step1 (schedule p1_install_1))) (= (active_p1_config step1) (active_p1_config (succ step1)))))
 (assert (=> (and (distinct step1 (schedule p1_update_0)) (distinct step1 (schedule p1_install_1))) (= (active_p1_service step1) (active_p1_service (succ step1)))))
+
 (check-sat)

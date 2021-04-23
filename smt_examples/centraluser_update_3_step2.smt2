@@ -8,6 +8,7 @@
 
 (declare-datatypes ((behavior 0)) (((u_suspend_0) (u_deploy_1) (p0_update_0) (p0_install_1) (p1_update_0) (p1_install_1))))
 (declare-datatypes ((step 0)) (((step0) (step1) (step2) (step3) (final_state))))
+
 (declare-fun schedule (behavior) step)
 (declare-fun succ (step) step)
 (declare-fun toint (step) Int)
@@ -21,6 +22,7 @@
 (declare-fun active_p0_service (step) Bool)
 (declare-fun active_p1_config (step) Bool)
 (declare-fun active_p1_service (step) Bool)
+
 (assert (distinct (schedule u_suspend_0) final_state))
 (assert (distinct (schedule u_deploy_1) final_state))
 (assert (distinct (schedule p0_update_0) final_state))
@@ -118,5 +120,6 @@
 (assert (=> (and (distinct step3 (schedule p0_update_0)) (distinct step3 (schedule p0_install_1))) (= (active_p0_service step3) (active_p0_service (succ step3)))))
 (assert (=> (and (distinct step3 (schedule p1_update_0)) (distinct step3 (schedule p1_install_1))) (= (active_p1_config step3) (active_p1_config (succ step3)))))
 (assert (=> (and (distinct step3 (schedule p1_update_0)) (distinct step3 (schedule p1_install_1))) (= (active_p1_service step3) (active_p1_service (succ step3)))))
+
 (check-sat)
 (get-model)
