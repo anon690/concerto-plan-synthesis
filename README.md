@@ -7,7 +7,7 @@ Reconfigurations*.
 This program depends on Z3 and its Python API, which are available to
 install through most package managers, e.g., by running
 
-`sudo apt-get python3-z3`
+`sudo apt-get install python3-z3`
 
 # Running benchmarks
 
