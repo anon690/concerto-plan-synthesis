@@ -1,7 +1,7 @@
 architecture,reconfiguration,size,total time (seconds),cumulated SMT solving time (seconds),number of satisfiable SMT problems,number of unsatisfiable SMT problems,average solving time (satisfiable problems),average solving time (unsatisfiable problems),scheduled behaviors,synchornization steps before optimization
 central provider,deployment,10,0.336,0.084,2,0,0.042,0,10,2
 central provider,deployment,30,3.956,1.803,5,0,0.361,0,30,2
-central provider,deployment,100,23.945,3.598,17,0,0.212,0,100,2
+central provider,deployment,100,93.076,68.676,17,0,0.212,0,100,2
 central provider,interruption,10,0.918,0.306,4,0,0.076,0,19,3
 central provider,interruption,30,12.365,7.253,10,0,0.725,0,59,3
 central provider,interruption,100,571.732,514.485,34,0,15.132,0,199,3
